@@ -17,6 +17,8 @@ Some of the libraries used for this project are:
 - yfinance
 - streamlit
 - plotly
+
+
 You can find the rest in requirements.txt with their corresponding versions.
 
 By: Ivanna Villa
