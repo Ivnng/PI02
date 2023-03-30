@@ -15,8 +15,8 @@ amzn = yf.download('AMZN', start, end)
 nke = yf.download('NKE', start, end)
 mcd = yf.download('MCD', start, end)
 
-nke_dividend = pd.read_csv("/PI02/pages/Nike, Inc. Common Stock (NKE) Dividend History _ Nasdaq.csv")
-mcd_dividend = pd.read_csv("/PI02/pages/McDonald's Corporation Common Stock (MCD) Dividend History _ Nasdaq.csv")
+nke_dividend = pd.read_csv("pages/Nike, Inc. Common Stock (NKE) Dividend History _ Nasdaq.csv")
+mcd_dividend = pd.read_csv("pages/McDonald's Corporation Common Stock (MCD) Dividend History _ Nasdaq.csv")
 
 #Title
 st.title('Key Performance Indicators (KPIs)')
